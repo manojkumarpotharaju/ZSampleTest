@@ -1,0 +1,27 @@
+<mvc:View
+    controllerName="testproject.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <Page
+        id="page"
+        title="{i18n>title}"
+    >
+        <content>
+            <VBox alignContent="Center">
+                <Label text="User Name" />
+                <Input
+                    value=""
+                    width="20rem"
+                />
+                <Label text="Password" />
+                <Input
+                    value=""
+                    width="20rem"
+                />
+                <Button text="Submit" />
+            </VBox>
+        </content>
+    </Page>
+</mvc:View>
